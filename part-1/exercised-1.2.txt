@@ -1,0 +1,10 @@
+CMD: docker container stop wonderful_banach
+CMD: docker container rm wonderful_banach
+CMD: docker container stop festive_blackwell
+CMD: docker container rm festive_blackwell
+
+C:\Users\Sharuu\Desktop\devopwithdocker>docker ps -a
+CONTAINER ID   IMAGE           COMMAND                  CREATED       STATUS                   PORTS     NAMES
+d8051d1abbac   nginx           "/docker-entrypoint.…"   2 hours ago   Up 2 hours               80/tcp    gifted_sanderson
+23719901acd8   ubuntu          "bash"                   2 hours ago   Exited (0) 2 hours ago             bold_moser
+26bf236b2508   ubuntu:latest   "bash"                   2 hours ago   Up 2 hours                         jolly_goodall
