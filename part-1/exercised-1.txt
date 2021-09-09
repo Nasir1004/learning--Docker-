@@ -1,0 +1,3 @@
+CMD: docker container  run nginx 3 times
+CMD: docker container stop  gifted_sandson
+CDM: docker container stop  festive_blackwell
