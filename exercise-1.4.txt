@@ -1,0 +1,11 @@
+CMD: docker run -d -it --name exercise-1.4 ubuntu sh -c "echo 'Input website:'; read website; echo 'Searching..'; sleep 1; curl http://$website;"
+
+CMD: docker start exercise
+
+CMD: docker exec -it exercise bash
+
+CMD: root@594c2a59dcfb:/# apt-get update
+
+CMD: root@594c2a59dcfb:/# apt-get install curl
+
+CMD: docker attach exercise
